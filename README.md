@@ -53,3 +53,20 @@ benchmarks are executed on a single CPU thread. The CPU used for this
 test is an Intel 9980HK which is based on Intel’s Coffee Lake Refresh
 with 16 MB of L3 cache. Lastly, the system has 64 GB’s of 2667 MHz DDR4
 memory.
+
+# Additional Details
+## External Links
+VIDEO: [Video Submission](https://youtu.be/7vhpBWoc-jA)
+CODE: [Code Submission](https://github.com/ChristianLagares/EfficientNNS)
+
+Datasets: [Datasets Submission](https://drive.google.com/drive/folders/1js7Fztupj2vYdCGmRYHZ1hAaV1gS60IX?usp=sharing)
+
+
+## Dependencies:
+    * python 3.7
+    * h5py
+    * pandas
+    * numpy
+
+## Final Remarks
+The code as is expects the datasets within the active directory and to vary between the ZPG and complex case the first boolean found within the conditional block at the end of the module must be set. The remainder of the code is automated. Executing the CONCAVE branch is resource intensive and requires a large upfront memory pool (this could be optimized if needed) and total runtime on an Intel 9980HK is roughly 30 minutes.
