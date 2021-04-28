@@ -57,6 +57,7 @@ memory.
 # Additional Details
 ## External Links
 VIDEO: [Video Submission](https://youtu.be/7vhpBWoc-jA)
+
 CODE: [Code Submission](https://github.com/ChristianLagares/EfficientNNS)
 
 Datasets: [Datasets Submission](https://drive.google.com/drive/folders/1js7Fztupj2vYdCGmRYHZ1hAaV1gS60IX?usp=sharing)
